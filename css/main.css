@@ -1,0 +1,163 @@
+.top {
+    margin-top: 50px;
+    height: 650px;
+}
+
+.intro-bg {
+    /* The image used */
+    background-image: url("../images/stem.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.geo-container {
+    position: relative;
+    height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .geo-container {
+        position: relative;
+        height: 500px;
+    }
+}
+
+.geo-bg {
+    /* The image used */
+    background-image: url("../images/geo.jpg");
+
+    /* Full height */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -99;
+}
+
+.alg-container {
+    position: relative;
+    height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .alg-container {
+        position: relative;
+        height: 500px;
+    }
+}
+
+.alg-bg {
+    /* The image used */
+    background-image: url("../images/algebra.jpg");
+
+    /* Full height */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -99;
+}
+
+.sat-container {
+    height: 600px;
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+    .sat-container {
+        height: 100%;
+        float: none;
+        margin: auto;
+        width: 300px;
+        padding: 50px;
+    }
+}
+
+.act-container {
+    height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .act-container {
+        height: 300px;
+        margin: auto;
+        width: 400px;
+    }
+}
+
+.one-container {
+    position: relative;
+    min-height: 300px;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+.class-bg {
+    /* The image used */
+    background-image: url("../images/class.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-img {
+    height: 200px;
+}
+
+.indent {
+    text-indent: 30px;
+}
+
+.modal-backdrop
+{   
+    background-color: white;
+    opacity:0.6 !important;
+}
+
+.modal.fade .modal-dialog {
+    transform: translate3d(0, 0, 0);
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.75s linear;
+       -moz-transition: opacity 0.75s linear;
+        -ms-transition: opacity 0.75s linear;
+         -o-transition: opacity 0.75s linear;
+            transition: opacity 0.75s linear;
+}
+
+.bio-secondary {
+    font-family: 'Times New Roman'; font-size: medium; color: #444444
+}

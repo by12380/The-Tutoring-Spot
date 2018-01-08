@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Tutoring Spot - Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link href="open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+    </script>
+    <style>
+        .sr-container { visibility: hidden }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+        <a class="navbar-brand">The Tutoring Spot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsDefault">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rate_and_class_schedule.html">Rate & Class Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="teacher_bio.html">Teacher's Bio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid sr-container top pt-5">
+        <div class="intro-bg">
+            <div class="pl-5">
+                <h1 class="display-4 text-dark">Problem Solving.</h1>
+                <h1 class="display-4 text-primary">Critical Thinking.</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                            <p class="lead content text-secondary">Never solve problem the same way. Foster the ability to logic and reason. Combine quality curriculum with exceptional mentoring.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sr-container geo-container pt-5">
+        <div class="pl-5 pr-5">
+            <div class="row">
+                <div class="col-md-4">
+                        <h1 class="display-4 text-success">Geometry</h1>
+                        <p class="lead content text-secondary">From Logic to proof, circles to polygons, congruence to similarity, strong fundementals in geometry is just the start.</p>
+                        <button type="button" class="btn btn-outline-primary sr-btn">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmmo3dgwlfjaCsla3Rwc7s20nLJxVnJNeDFb6-60ekg3Xonw/viewform" target="_blank">
+                                Enroll
+                            </a>
+                        </button>
+                        <button type="button" class="btn btn-outline-info sr-btn" data-toggle="modal" data-target="#geometryModal">Class Info</button>
+                </div>
+            </div>
+        </div>
+        <div class="geo-bg"></div>
+    </div>
+    <div class="container-fluid sr-container alg-container pt-5">
+        <div class="px-5">
+            <div class="row">
+                <div class="col-md-7"></div>
+                <div class="col-md-4">
+                        <h1 class="display-4 text-danger">Algebra 2</h1>
+                        <p class="lead content text-secondary">From linear to polynomial, exponents to logarithm, statistics to trignometry, step by step to uncover it all.</p>
+                        <button type="button" class="btn btn-outline-primary sr-btn">Enroll</button>
+                        <button type="button" class="btn btn-outline-info sr-btn" data-toggle="modal" data-target="#algebraModal">Class Info</button>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="alg-bg"></div>
+    </div>
+    <div class="container-fluid sr-container pt-5">
+        <div class="pl-5 pr-5">
+            <div class="row">
+                <div class="col-md-4">
+                        <h1 class="display-4 text-primary">SAT Math</h1>
+                        <p class="lead content text-secondary">Enhanced and redesigned, with data and modeling, knowing to solve equations isn't enough. Application of algebraic models is in the game.</p>
+                        <button type="button" class="btn btn-outline-primary sr-btn">Enroll</button>
+                        <button type="button" class="btn btn-outline-info sr-btn" data-toggle="modal" data-target="#satModal">Class Info</button>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <div class="sat-container">
+                        <img src="images/sat.jpg" class="img-fluid" alt="SAT">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sr-container pt-5">
+        <div class="pl-5 pr-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="act-container pt-5">
+                        <img src="images/act.jpg" class="img-fluid" alt="ACT">
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 pb-5">
+                        <h1 class="display-4 text-warning">ACT Math & Science</h1>
+                        <p class="lead content text-secondary">Enhanced and redesigned, with data and modeling, knowing to solve equations isn't enough. Application of algebraic models is in the game.</p>
+                        <button type="button" class="btn btn-outline-primary sr-btn">Enroll</button>
+                        <button type="button" class="btn btn-outline-info sr-btn">Class Info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fliud sr-container one-container bg-info pt-5">
+        <div class="pl-5 pr-5">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-center">
+                    <div>
+                        <h1 class="display-4 text-light">One-on-One</h1>
+                    </div>
+                    <p class="text-light pt-3">
+                        <span class="one-to-one">&bull;&nbsp;Algebra 1&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;Geometry&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;Algebra 2&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;Pre-Calculus&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;Calculus&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;SAT II Biology&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;SAT II Chemistry&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;SAT Math IIC&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;SAT Math&nbsp;&nbsp;</span>
+                        <span class="one-to-one">&bull;&nbsp;ACT Math/Science&nbsp;&nbsp;</span>
+                    </p>
+                    <p class="text-light pt-3 one-to-one" style="font-size: small">(Please call or text for 1-on-1 inquiries)</p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron sr-container">
+        <div class="row">
+            <div class="col-md-5 pl-5 contact-container">
+                <h1 class="py-2">Contact</h1> 
+                <p><span class="oi oi-location"></span> 527 Pierre Rd. Walnut, CA 91789</p>
+                <p><span class="oi oi-phone"></span> +1 (909) 979-7281</p>
+                <p><span class="oi oi-envelope-closed"></span> by12380@gmail.com</p>
+            </div>
+            <div class="col-md-7">
+                    <div id="map"></div>
+            </div>
+        </div> 
+    </div>
+
+      <!-- Modal -->
+    <div class="modal fade" id="geometryModal" tabindex="-1" role="dialog" aria-labelledby="geometryModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h1 class="display-3 text-success">Geometry</h1>
+                    <hr />
+                    <div class="text-dark">
+                        <p class="indent">
+                            High school geometry is a major subject tested in college extrance exams such as SAT and ACT, especially in ACT.
+                            Although this subject introduces many rules related to lines, circles, and triangles, etc., repeatition is the effortless way to learn; therefore, practice is key.
+                            Having a good foundation in high school geometry is not only important to do well in college extrance exams, but also in advanced mathematics in college.
+                        </p>
+                        <p class="indent">    
+                            High school geometry introduces logic and proof, and students get first-time hands-on practice on how to solve problems using proof techniques.
+                            Many students find it hard to learn and give up half-way, but the truth is it's not and it doesn't have to be that way.
+                            With our teaching experience, we are masters at simplying and explaining all new concepts, and learning geometry is a breeze.
+                            This class will not only follow materials taught at school, but also quality problems collected over our teaching years, with an extra goal to prepare them for SAT and/or ACT.
+                        </p>
+                        <p class="indent">    
+                            In this class, bi-weekly quizzes are given, and based on their quizzes we hand-pick problems for each student to target each individual's need.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Modal -->
+    <div class="modal fade" id="algebraModal" tabindex="-1" role="dialog" aria-labelledby="algebraModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h1 class="display-3 text-danger">Algebra 2</h1>
+                    <hr />
+                    <div class="text-dark">
+                        <p class="indent">
+                            High school algebra 2 is a major subject tested in college extrance exams such as SAT, ACT, and SAT Math II-C.
+                            In the redesigned SAT, the ability to formulate equation, from linear to quadratic to exponential models, are all fair game.
+                            In ACT, each topic from algebra 2 is equally tested, along with some topics that have been recently removed from the high school curriculum.
+                        </p>
+                        <p class="indent">    
+                            Besides for exam preperation, cleverly crafted algebra problems are the best pratices for critical thinking and problem solving.
+                            With our curated collection of problems, we have the best materials to help foster these critical thinking skills.
+                        </p>
+                        <p class="indent">
+                            Thus, each topic in algebra 2 is essential and cannot be dismissed. Having strong foundation in algebra 2 is the key to do well in all upcoming mathematical challenges.
+                            This class will not only follow materials taught at school, but also those neglected yet necessary, with the goal to ready them for the SAT and ACT exams.
+                        </p>
+                        <p class="indent">    
+                            In this class, bi-weekly quizzes are given, and based on their quizzes we hand-pick problems for each student to target each individual's need.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="satModal" tabindex="-1" role="dialog" aria-labelledby="satModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h1 class="display-3 text-primary">SAT</h1>
+                    <hr />
+                    <div class="text-dark">
+                        <p class="indent">
+                            In the redesigned SAT, not only do they ask students how to solve equations, but also how to formulate equations for data modeling.
+                            This overlaps with real-life use of statistics, where prediction and interpretation of data is commonplace in the technical field.
+                            Most student learn how to solve equations, but not formualte one, especially when it comes to doing word problems.
+                            We believe starting early is key, and with our carefully selected pratice problems and exams, we will ensure students master the real SAT.
+                        </p>
+                        <p class="indent">
+                            Many of the topics in SAT math lies in the subject of algebra 2, and we make sure to revisit and reinforce these topics with our students.
+                        </p>
+                        <p class="indent">    
+                            In this class, weekly practice exams are given, and based on their exam performance we hand-pick problems as thier homework from past related Geometry and Algebra 2 topics for each student to refresh and reinforce their problem solving skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLQPJ4eRBMNj7h5yfp9skhGxA2lNuvcq8&callback=initMap">
+    </script>
+    <script>
+        function initMap() {
+            var uluru = {lat: 34.024512, lng: -117.853070};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: uluru
+            });
+
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+
+        sr.reveal('.sr-container', { duration: 2000, scale: 1 });
+        sr.reveal('.content', { duration: 2000, scale: 1, delay: 1000 });
+        sr.reveal('.sr-btn', { duration: 2000, scale: 1, delay: 1000 });
+        sr.reveal('.geo-bg', { origin: 'right', duration: 2000, scale: 1, delay: 1000 });
+        sr.reveal('.alg-bg', { origin: 'left', duration: 2000, scale: 1, delay: 1000 });
+        sr.reveal('.sat-container', { origin: 'top', duration: 2000, scale: 1, delay: 1000 });
+        sr.reveal('.act-container', { origin: 'top', duration: 2000, scale: 0.5, delay: 1000 });
+        sr.reveal('.one-to-one', { origin: 'left', duration: 2000, scale: 1, delay: 500 }, 50);
+        sr.reveal('.contact-container', { origin: 'left', duration: 2000, scale: 1});
+    </script>
+</body>
+
+</html>
