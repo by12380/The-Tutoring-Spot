@@ -1,0 +1,1 @@
+sr.reveal('.sr-container', { duration: 2000, scale: 1 });
