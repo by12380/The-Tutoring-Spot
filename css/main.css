@@ -98,7 +98,7 @@
         height: 100%;
         float: none;
         margin: auto;
-        width: 300px;
+        width: 250px;
         padding: 50px;
     }
 }
@@ -109,9 +109,9 @@
 
 @media screen and (max-width: 768px) {
     .act-container {
-        height: 300px;
         margin: auto;
-        width: 400px;
+        width: 250px;
+        margin-bottom: -100px;
     }
 }
 
