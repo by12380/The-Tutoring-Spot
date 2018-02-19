@@ -24,6 +24,26 @@
     z-index: -99;
 }
 
+.cloud-bg {
+    /* The image used */
+    background-image: url("../images/table_top.jpg");
+
+    /* Full height */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -99;
+}
+
 .about-container {
     max-width: 500px;
     margin: auto;
@@ -43,6 +63,27 @@
 @media screen and (max-width: 768px) {
     .sat-container {
         width: 250px;
+    }
+}
+
+.cloud-container {
+    max-width: 300px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .cloud-container {
+        width: 250px;
+    }
+}
+
+.cloud-font {
+    font-size: 76px;
+}
+
+@media screen and (max-width: 768px) {
+    .cloud-font {
+        font-size: 36px;
     }
 }
 
