@@ -15,9 +15,8 @@ function initMap() {
 sr.reveal('.sr-container', { duration: 2000, scale: 1 });
 sr.reveal('.content', { duration: 2000, scale: 1, delay: 1000 });
 sr.reveal('.sr-btn', { duration: 2000, scale: 1, delay: 1000 });
-sr.reveal('.geo-bg', { origin: 'right', duration: 2000, scale: 1, delay: 1000 });
-sr.reveal('.alg-bg', { origin: 'left', duration: 2000, scale: 1, delay: 1000 });
 sr.reveal('.sat-container', { origin: 'top', duration: 2000, scale: 1, delay: 1000 });
 sr.reveal('.act-container', { origin: 'top', duration: 2000, scale: 0.5, delay: 1000 });
 sr.reveal('.one-to-one', { origin: 'left', duration: 2000, scale: 1, delay: 500 }, 50);
+sr.reveal('.follow-us-container', { origin: 'left', duration: 2000, scale: 1, delay: 500 }, 50);
 sr.reveal('.contact-container', { origin: 'left', duration: 2000, scale: 1});
