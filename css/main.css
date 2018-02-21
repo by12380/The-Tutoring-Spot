@@ -1,27 +1,45 @@
-.top {
-    margin-top: 50px;
-    position: relative;
-    height: 650px;
+.act-container {
+    height: 400px;
 }
 
-.intro-bg {
+@media screen and (max-width: 768px) {
+    .act-container {
+        margin: auto;
+        width: 250px;
+        margin-bottom: -100px;
+    }
+}
+
+.about-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        padding: 50px;
+    }
+}
+
+.bio-secondary {
+    font-family: 'Times New Roman'; font-size: medium; color: #444444
+}
+
+.bg-light-blue {
+    background-color:#e8effc;
+}
+
+.class-bg {
     /* The image used */
-    background-image: url("../images/stem.jpg");
+    background-image: url("../images/class.jpg");
 
     /* Full height */
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     height: 100%;
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    z-index: -99;
 }
 
 .cloud-bg {
@@ -44,28 +62,6 @@
     z-index: -99;
 }
 
-.about-container {
-    max-width: 500px;
-    margin: auto;
-}
-
-@media screen and (max-width: 768px) {
-    .about-container {
-        padding: 50px;
-    }
-}
-
-.sat-container {
-    max-width: 400px;
-    margin: auto;
-}
-
-@media screen and (max-width: 768px) {
-    .sat-container {
-        width: 250px;
-    }
-}
-
 .cloud-container {
     max-width: 300px;
     margin: auto;
@@ -73,7 +69,7 @@
 
 @media screen and (max-width: 768px) {
     .cloud-container {
-        width: 250px;
+        width: 150px;
     }
 }
 
@@ -87,48 +83,51 @@
     }
 }
 
-.act-container {
-    height: 400px;
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.75s linear;
+       -moz-transition: opacity 0.75s linear;
+        -ms-transition: opacity 0.75s linear;
+         -o-transition: opacity 0.75s linear;
+            transition: opacity 0.75s linear;
 }
 
-@media screen and (max-width: 768px) {
-    .act-container {
-        margin: auto;
-        width: 250px;
-        margin-bottom: -100px;
-    }
+.font-size-16 {
+    font-size: 16px;
 }
 
-.one-container {
-    position: relative;
-    min-height: 300px;
+.jumbotron {
+    margin: 0px;
 }
 
-#map {
-    width: 100%;
-    height: 400px;
-    background-color: grey;
+.indent {
+    text-indent: 30px;
 }
 
-.class-bg {
+.intro-bg {
     /* The image used */
-    background-image: url("../images/class.jpg");
+    background-image: url("../images/stem.jpg");
 
     /* Full height */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    z-index: -99;
 }
 
-.profile-img {
-    height: 200px;
-}
-
-.indent {
-    text-indent: 30px;
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
 }
 
 .modal-backdrop
@@ -141,19 +140,32 @@
     transform: translate3d(0, 0, 0);
 }
 
-.fade {
-    opacity: 0;
-    -webkit-transition: opacity 0.75s linear;
-       -moz-transition: opacity 0.75s linear;
-        -ms-transition: opacity 0.75s linear;
-         -o-transition: opacity 0.75s linear;
-            transition: opacity 0.75s linear;
+.one-container {
+    position: relative;
+    min-height: 300px;
 }
 
-.bio-secondary {
-    font-family: 'Times New Roman'; font-size: medium; color: #444444
+.profile-img {
+    height: 200px;
 }
 
-.jumbotron {
-    margin: 0px;
+.sat-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .sat-container {
+        width: 250px;
+    }
+}
+
+.text-custom-gray {
+    color:#494c51;
+}
+
+.top {
+    margin-top: 50px;
+    position: relative;
+    height: 650px;
 }
