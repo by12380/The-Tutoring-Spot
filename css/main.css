@@ -3,16 +3,26 @@
     padding-bottom: 100px;
 }
 
-.act-container {
-    height: 400px;
+.act-photo {
+    width: 350px;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
-    .act-container {
-        margin: auto;
+    .act-photo {
         width: 250px;
-        margin-bottom: -100px;
     }
+}
+
+.act-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.act-content {
+    color:#494c51;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .photo-card {
@@ -46,7 +56,10 @@
 
 .cloud-bg {
     /* The image used */
-    background-image: url("../images/table_top.jpg");
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)
+    ),url("../images/table_top.jpg");
 
     /* Full height */
     width: 100%;
@@ -64,23 +77,30 @@
     z-index: -99;
 }
 
-.cloud-container {
+.cloud-photo {
     max-width: 300px;
     margin: auto;
 }
 
 @media screen and (max-width: 768px) {
-    .cloud-container {
+    .cloud-photo {
         width: 150px;
     }
 }
 
-.cloud-font {
-    font-size: 76px;
+.cloud-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
+.cloud-intro-title {
+    font-size: 76px;
+    text-shadow: 0 1px 1px black;
+}
+
+
 @media screen and (max-width: 768px) {
-    .cloud-font {
+    .cloud-intro-title {
         font-size: 36px;
     }
 }
@@ -163,7 +183,7 @@
 
 .one-container {
     position: relative;
-    min-height: 300px;
+    min-height: 700px;
 }
 
 .profile-img {
@@ -226,9 +246,31 @@
 
 .top {
     position: relative;
-    min-height: 700px;
+    height: 100vh;
+    min-height: 500px;
 }
 
-.top-bio {
-    margin-top: 50px;
+.private-tutoring-bg {
+    background-image: linear-gradient( 
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/private-tutoring.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -99
+}
+
+.one-on-one-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
