@@ -147,6 +147,12 @@
     z-index: -99;
 }
 
+@media screen and (max-width: 768px) {
+    .intro-bg {
+        background-attachment: initial;
+    }
+}
+
 .company-title {
     text-shadow: 0 1px 2px black;
 }
@@ -244,6 +250,12 @@
     z-index: -99;
 }
 
+@media screen and (max-width: 768px) {
+    .sat-bg {
+        background-attachment: initial;
+    }
+}
+
 .top {
     position: relative;
     height: 100vh;
@@ -268,6 +280,12 @@
     left: 0;
 
     z-index: -99
+}
+
+@media screen and (max-width: 768px) {
+    .private-tutoring-bg {
+        background-attachment: initial;
+    }
 }
 
 .one-on-one-container {
